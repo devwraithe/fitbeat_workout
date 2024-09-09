@@ -1,6 +1,6 @@
 import random
-from random import shuffle
 
+from src.modules.save_workout_plan import save_workout
 from src.utilities.database import exercises
 
 
@@ -24,6 +24,8 @@ def generate_workout(fitness_level):
         if exercise['difficulty'] == difficulty:
             if len(selected_exercises) < 5:
                 selected_exercises.append(exercise)
+
+    save_workout(selected_exercises)
 
     print(f"\n{fitness_level.capitalize()} level exercises created just for you:")
 

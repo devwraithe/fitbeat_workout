@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Dumbbell Row",
+        "difficulty": 2
+    },
+    {
+        "name": "Dumbbell Shoulder Press",
+        "difficulty": 2
+    },
+    {
+        "name": "Dumbbell Bench Press",
+        "difficulty": 2
+    },
+    {
+        "name": "Dumbbell Lateral Raise",
+        "difficulty": 2
+    },
+    {
+        "name": "Dumbbell Lunge",
+        "difficulty": 2
+    }
+]
