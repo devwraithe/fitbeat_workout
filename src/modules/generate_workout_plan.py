@@ -4,6 +4,14 @@ from src.modules.save_workout_plan import save_workout
 from src.utilities.database import exercises
 
 
+def check_file_exists():
+    try:
+        with open("workout.json", "r", encoding="utf-8") :
+            return True
+    except FileNotFoundError:
+        return False
+
+
 def get_diff_int(fitness_level):
     if fitness_level == "beginner":
         return 1

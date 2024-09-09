@@ -1,22 +1,22 @@
 [
     {
-        "name": "Mountain Climbers",
-        "difficulty": 1
+        "name": "Dumbbell Shoulder Press",
+        "difficulty": 2
     },
     {
-        "name": "Bicep Curls",
-        "difficulty": 1
+        "name": "Dumbbell Bicep Curl",
+        "difficulty": 2
     },
     {
-        "name": "Squat",
-        "difficulty": 1
+        "name": "Dumbbell Bench Press",
+        "difficulty": 2
     },
     {
-        "name": "Burpees",
-        "difficulty": 1
+        "name": "Dumbbell Lunge",
+        "difficulty": 2
     },
     {
-        "name": "Tricep Dips",
-        "difficulty": 1
+        "name": "Dumbbell Row",
+        "difficulty": 2
     }
 ]
